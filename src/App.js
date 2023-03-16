@@ -1,6 +1,11 @@
 import React from "react";
+import Hero from "./components/Hero/Hero";
 import "./index.css";
 
 export default function App() {
-  return <h1 className="text-primary text-4xl font-bold">Tailwind Testing</h1>;
+  return (
+    <>
+    <Hero />
+    </>
+  );
 }

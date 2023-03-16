@@ -1,0 +1,18 @@
+.pill {
+  padding: 10px 30px;
+  background-color: #180239;
+  border-radius: 100px;
+  position: relative;
+  border: 2px solid rgba(255, 255, 255, 0.377);
+
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+
+  box-shadow: inset 0px 0px 10px 1px rgba(255, 255, 255, 0.13);
+
+  transition: box-shadow 500ms ease-in;
+}
+
+.pill:hover {
+  box-shadow: inset 0px 0px 50px 10px rgba(255, 255, 255, 0.13);
+}
