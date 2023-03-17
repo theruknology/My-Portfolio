@@ -1,0 +1,21 @@
+.socials {
+  position: fixed;
+  top: 40px;
+  right: 40px;
+  color: #ffffff;
+  font-size: 0.8rem;
+}
+
+.links {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+@media (max-width: 650px) {
+  .socials {
+    bottom: 40px;
+    right: 40px;
+    top: auto;
+  } 
+}

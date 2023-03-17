@@ -11,7 +11,8 @@
 }
 
 body {
-  background: linear-gradient(to bottom right, #0a0118, #180239);
+  background: linear-gradient(to top left, #0a0118, #180239);
   background-repeat: no-repeat;
   min-height: 100vh;
+  position: relative;
 }

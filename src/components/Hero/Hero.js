@@ -6,7 +6,7 @@ import stars from "../../assets/stars.png";
 
 const Hero = () => {
   return (
-    <div className={styles.hero} style={{backgroundImage:`url(${stars})`}}>
+    <div className={styles.hero} style={{ backgroundImage: `url(${stars})` }}>
       <h1>
         Creative Websites for a <br></br> Fast-Paced World
       </h1>

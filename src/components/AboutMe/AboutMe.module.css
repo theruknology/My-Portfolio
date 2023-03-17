@@ -1,0 +1,67 @@
+.aboutMe {
+  min-height: 80vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  padding-block: 3rem;
+  color: #ffffff;
+  text-align: center;
+  font-family: "Inter", sans-serif;
+  align-items: center;
+
+  background-position-x: left;
+  animation: spotlight 5s cubic-bezier(0.81, 0.02, 0.13, 1) infinite;
+}
+
+@keyframes spotlight {
+  50% {
+    background-position-x: right;
+  }
+}
+
+.aboutMe h1 {
+  font-size: 3.2rem;
+  text-align: center;
+  font-weight: 600;
+
+  background: linear-gradient(
+    180deg,
+    #ffffff 0%,
+    rgba(255, 255, 255, 0.6) 100%
+  );
+  background-size: 100%;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+}
+
+.aboutMe h2 {
+  font-family: "Merriweather", serif;
+  font-size: 1.5rem;
+  font-weight: 600;
+
+  background: linear-gradient(
+    180deg,
+    #ffffff 0%,
+    rgba(255, 255, 255, 0.6) 100%
+  );
+  background-size: 100%;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+}
+
+.aboutMe p {
+  font-family: "Inter", sans-serif;
+  font-size: 1.2rem;
+  margin-top: 1rem;
+  color: #b5abcb;
+  font-weight: 500;
+  width: min(60rem, 100%);
+  padding-inline: 1rem;
+}
