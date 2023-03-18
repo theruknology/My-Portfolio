@@ -5,6 +5,7 @@
   flex-direction: column;
   gap: 0.5rem;
   padding-block: 3rem;
+  padding-inline: 1rem;
   color: #ffffff;
   text-align: center;
   font-family: "Inter", sans-serif;
@@ -64,4 +65,31 @@
   font-weight: 500;
   width: min(60rem, 100%);
   padding-inline: 1rem;
+}
+
+@media (max-width: 950px) {
+  .aboutMe h1 {
+    font-size: 4rem;
+  }
+  .aboutMe h2 {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 775px) {
+  .aboutMe h1 {
+    font-size: 3rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .aboutMe {
+    min-height: 70vh;
+  }
+  .aboutMe h1 {
+    font-size: 2.2rem;
+  }
+  .aboutMe h2 {
+    font-size: 1.5rem;
+  }
 }

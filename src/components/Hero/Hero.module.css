@@ -15,7 +15,7 @@
 
   background-size: 100%;
   background-position: center;
-  animation: backgroundMove 50s infinite;
+  animation: backgroundMove 150s infinite;
 }
 
 @keyframes backgroundMove {
@@ -60,7 +60,7 @@
 .hero h2 {
   font-size: 2.5rem;
   font-family: "Merriweather", serif;
-  font-weight: 200;
+  font-weight: 600;
 
   opacity: 0;
   transform: translateY(-30%);
@@ -97,7 +97,6 @@
   .hero h2 {
     font-size: 2rem;
   }
- 
 }
 
 @media (max-width: 775px) {
@@ -120,4 +119,36 @@
     flex-direction: column;
     gap: 0.5rem;
   }
+}
+
+.rightSpot {
+  position: absolute;
+  width: 50%;
+  height: 100%;
+  top: 0;
+  right: 0;
+
+  background-size: cover;
+  background-position-y: top;
+  animation: bgMoverR 5s cubic-bezier(0.81, 0.02, 0.13, 1) infinite;
+}
+
+.leftSpot {
+  position: absolute;
+  width: 50%;
+  height: 100%;
+  top: 0;
+  left: 0;
+
+  background-size: cover;
+  background-position-y: bottom;
+  animation: bgMoverL 5s cubic-bezier(0.81, 0.02, 0.13, 1) infinite;
+}
+
+@keyframes bgMoverR {
+  50% {background-position-y: bottom;} 
+}
+
+@keyframes bgMoverL {
+  50% {background-position-y: top;} 
 }

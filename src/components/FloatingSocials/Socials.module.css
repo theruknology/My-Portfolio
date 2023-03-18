@@ -14,8 +14,9 @@
 
 @media (max-width: 650px) {
   .socials {
-    bottom: 40px;
+    /* bottom: 40px;
     right: 40px;
-    top: auto;
+    top: auto; */
+    display: none;
   } 
 }

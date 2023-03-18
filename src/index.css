@@ -15,4 +15,20 @@ body {
   background-repeat: no-repeat;
   min-height: 100vh;
   position: relative;
+  overflow-x: hidden;
+}
+
+.hiddenEl {
+  opacity: 0;
+  /* transform: translateX(100%); */
+  filter: blur(5px);
+  transition: all 1s cubic-bezier(0, 1.09, 1, 1);
+  overflow-x: hidden;
+}
+
+.showEl {
+  overflow-x: hidden;
+  /* transform: translateX(0%); */
+  filter: blur(0px);
+  opacity: 1;
 }
