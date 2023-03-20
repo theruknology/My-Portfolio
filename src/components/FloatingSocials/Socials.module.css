@@ -1,5 +1,6 @@
 .socials {
   position: fixed;
+  z-index: 100;
   top: 40px;
   right: 40px;
   color: #ffffff;
@@ -20,3 +21,4 @@
     display: none;
   } 
 }
+

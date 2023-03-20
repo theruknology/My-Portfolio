@@ -1,0 +1,69 @@
+.youtube {
+  min-height: 80vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  padding-block: 3rem;
+  padding-inline: 1rem;
+  color: #ffffff;
+  text-align: center;
+  font-family: "Inter", sans-serif;
+  align-items: center;
+}
+
+.youtube h2 {
+  font-family: "Merriweather", serif;
+  font-size: 3.2rem;
+  text-align: center;
+  font-weight: 600;
+
+  background: linear-gradient(
+    180deg,
+    #ffffff 0%,
+    rgba(255, 255, 255, 0.6) 100%
+  );
+  background-size: 100%;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+}
+
+.youtube p {
+  width: min(800px, 100%);
+  font-family: "Inter", sans-serif;
+  font-size: 1.2rem;
+  margin-top: 1rem;
+  color: #b5abcb;
+  font-weight: 500;
+  width: min(60rem, 100%);
+  padding-inline: 1rem;
+}
+
+.youtube iframe {
+  margin-top: 2rem;
+  border: 2px solid rgba(255, 255, 255, 0.432);
+  border-radius: 1rem;
+  margin-bottom: 2rem;
+  width: min(500px, 100%);
+}
+
+.socialLinks {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+
+.socialLinks a {
+  width: 70px;
+  height: 70px;
+  cursor: pointer;
+  border-radius: 100px;
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}

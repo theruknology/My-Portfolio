@@ -71,14 +71,15 @@
   .aboutMe h1 {
     font-size: 4rem;
   }
-  .aboutMe h2 {
-    font-size: 2rem;
-  }
+
 }
 
 @media (max-width: 775px) {
   .aboutMe h1 {
     font-size: 3rem;
+  }
+  .aboutMe p {
+    font-size: 1.1rem;
   }
 }
 
@@ -92,4 +93,26 @@
   .aboutMe h2 {
     font-size: 1.5rem;
   }
+  .aboutMe p {
+    font-size: 1rem;
+  }
 }
+
+.portrait {
+  position: relative;
+  height: 15rem;
+  width: 15rem;
+  margin-block: 2rem;
+  border-radius: 200px;
+  background-position: center;
+  background-size: cover;
+  z-index: 10;
+
+  box-shadow: 10px 10px 40px 0px rgba(84, 74, 141, 0.308);
+}
+
+.techPill {
+  font-weight: 500;
+  color: #b5abcb;
+}
+

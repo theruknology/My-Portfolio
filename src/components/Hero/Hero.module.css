@@ -123,6 +123,7 @@
 
 .rightSpot {
   position: absolute;
+  z-index: 5;
   width: 50%;
   height: 100%;
   top: 0;
@@ -135,6 +136,7 @@
 
 .leftSpot {
   position: absolute;
+  z-index: 5;
   width: 50%;
   height: 100%;
   top: 0;

@@ -1,14 +1,15 @@
 .pill {
   padding: 5px 20px;
+  width: fit-content;
   border-radius: 100px;
   z-index: 100;
   position: relative;
   border: 2px solid rgba(255, 255, 255, 0.377);
 
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-weight: 500;
 
-  box-shadow: inset 0px 0px 4px 2px rgba(168, 128, 255, 0.1);;
+  box-shadow: inset 0px 0px 4px 2px rgba(168, 128, 255, 0.1);
 
   transition: box-shadow 500ms ease-in;
 
@@ -17,4 +18,38 @@
 
 .pill:hover {
   box-shadow: inset 0px 0px 50px 10px rgba(255, 255, 255, 0.13);
+}
+
+.fullModal {
+  z-index: 999;
+  position: fixed;
+  top: 0;
+  left: 0;
+  overflow-x: hidden;
+  overflow-y: auto;
+  height: 100vh;
+  width: 100vw;
+  background-color: #0a0018;
+  opacity: 0;
+  transform: translateY(100%);
+  color: white;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+
+  animation: fadeIn 500ms cubic-bezier(0, 1.09, 1, 1) forwards;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(100%);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0%);
+  }
 }
